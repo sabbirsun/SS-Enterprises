@@ -1,0 +1,44 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8df"/>
+      <stop offset="1" stop-color="#e7c98b"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#168b43"/>
+      <stop offset="1" stop-color="#07552c"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="200" cy="355" rx="105" ry="15" fill="#000" opacity=".10"/>
+
+  <path d="M115 65 L285 65 L310 115 L292 335 Q200 365 108 335 L90 115 Z"
+        fill="url(#bag)" stroke="#c9a86c" stroke-width="4"/>
+
+  <path d="M115 65 Q200 90 285 65 L285 100 L115 100 Z"
+        fill="#d8b778" stroke="#b18c50" stroke-width="3"/>
+
+  <path d="M112 155 Q200 140 288 155 L282 270 Q200 290 118 270 Z"
+        fill="url(#green)"/>
+
+  <text x="200" y="205" font-size="36" font-weight="bold"
+        text-anchor="middle" fill="#fff">Miniket</text>
+
+  <text x="200" y="245" font-size="34" font-weight="bold"
+        text-anchor="middle" fill="#fff">চাল</text>
+
+  <path d="M150 290 Q200 260 250 290" fill="none"
+        stroke="#d8edb4" stroke-width="5"/>
+
+  <g fill="#fff0c9">
+    <ellipse cx="150" cy="310" rx="5" ry="11" transform="rotate(-25 150 310)"/>
+    <ellipse cx="170" cy="318" rx="5" ry="11" transform="rotate(15 170 318)"/>
+    <ellipse cx="190" cy="308" rx="5" ry="11" transform="rotate(-15 190 308)"/>
+    <ellipse cx="210" cy="318" rx="5" ry="11" transform="rotate(20 210 318)"/>
+    <ellipse cx="230" cy="308" rx="5" ry="11" transform="rotate(-20 230 308)"/>
+  </g>
+
+  <text x="200" y="345" font-size="19" font-weight="bold"
+        text-anchor="middle" fill="#07552c">5 KG</text>
+</svg>

@@ -1,0 +1,54 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bottle" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#d99a16"/>
+      <stop offset="0.45" stop-color="#ffd95b"/>
+      <stop offset="1" stop-color="#c78308"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0" x2="1">
+      <stop offset="0" stop-color="#176b32"/>
+      <stop offset="1" stop-color="#26984a"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="200" cy="350" rx="100" ry="13" fill="#dce5dc"/>
+
+  <rect x="177" y="42" width="46" height="35" rx="7" fill="url(#cap)"/>
+  <path d="M180 78 L220 78 L230 105 L242 120
+    Q255 132 255 153 L255 310
+    Q255 333 232 333 L168 333
+    Q145 333 145 310 L145 153
+    Q145 132 158 120 L170 105 Z"
+    fill="url(#bottle)" stroke="#a96e05" stroke-width="4"/>
+
+  <path d="M170 117 Q200 101 230 117" fill="none"
+    stroke="#fff2ae" stroke-width="7" opacity=".7"/>
+
+  <rect x="151" y="164" width="98" height="112" rx="10"
+    fill="#fffdf1" stroke="#e5bd48" stroke-width="3"/>
+
+  <text x="200" y="190" text-anchor="middle"
+    font-family="Arial" font-size="13" font-weight="bold"
+    fill="#176b32">SS-ENTERPRISE</text>
+
+  <text x="200" y="225" text-anchor="middle"
+    font-family="Arial" font-size="22" font-weight="bold"
+    fill="#247b35">SOYBEAN</text>
+
+  <text x="200" y="249" text-anchor="middle"
+    font-family="Arial" font-size="20" font-weight="bold"
+    fill="#247b35">OIL</text>
+
+  <text x="200" y="266" text-anchor="middle"
+    font-family="Arial" font-size="12" fill="#555">100% PURE</text>
+
+  <path d="M188 291 Q165 275 175 261 Q188 271 188 291
+    M192 291 Q215 271 207 254 Q192 268 192 291"
+    fill="#328b42"/>
+
+  <text x="200" y="375" text-anchor="middle"
+    font-family="Arial" font-size="14" fill="#555">
+    COOKING OIL
+  </text>
+</svg>
